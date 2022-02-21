@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  display: block;
 }
 
 .App-logo {
@@ -35,4 +36,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.button_wrapper{
+
+width: 100%;
+padding-top: 50px;
+padding-bottom: 25px;
+}
+
+.update-button{
+
+padding-top: 25px;
+padding-bottom: 25px;
+padding-left: 15px;
+padding-right: 15px;
+font-size: larger;
+border: none;
+background-color: chocolate;
+border-radius: 5px;
+}
+
+button.update-button:hover{
+  cursor: pointer;
+  filter:grayscale(0.5);
+  
 }

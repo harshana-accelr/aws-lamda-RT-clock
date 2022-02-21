@@ -47,18 +47,88 @@ padding-bottom: 25px;
 
 .update-button{
 
-padding-top: 25px;
-padding-bottom: 25px;
-padding-left: 15px;
-padding-right: 15px;
+padding: 25px;
 font-size: larger;
 border: none;
-background-color: chocolate;
+background-color: #B78628;
+color: #282c34;
+
 border-radius: 5px;
+letter-spacing: 2px;
 }
 
 button.update-button:hover{
   cursor: pointer;
-  filter:grayscale(0.5);
+ 
   
 }
+
+.display-real-time-wrapper{
+
+  font-size:100px;
+}
+
+.display-real-date-time-wrapper{
+  padding-top: 20px;
+  font-size: 25px;
+  font-weight: lighter;
+  
+}
+.display-time-changed-wrapper{
+  display: flex;
+  justify-content: center ;
+  
+  margin-top: 200px;
+  
+  
+}
+.inside-real-time{
+  display: block;
+  justify-content: center ;
+  background-color: black;
+ 
+  width: fit-content;
+  padding-top: 20px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 35px;
+  letter-spacing: 4px;
+
+}
+.inside-real-time-header-title{
+  color: white;
+}
+
+.inside-real-time-in{
+  padding-top: 10px;
+    display: flex;
+}
+.hours-in{
+
+  padding-left: 4px;
+  padding-right: 4px;
+  color: white;
+  font-size: 80px;
+  
+
+}
+
+.update-button-stop{
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: larger;
+  border: none;
+  background-color: rgb(131, 130, 129);
+  border-radius: 5px;
+  }
+
+  
+  
+  button.update-button-stop:hover{
+    cursor: pointer;
+    filter:grayscale(0.5);
+    
+  }
